@@ -92,8 +92,8 @@ def usage():
 	 Dos Script v.1
 	Pembuat tidak bertanggung jawab jika digunakan untuk melawan hukum.
 	Script ini recode ke bahasa indonesia dari script Hammer v.1 \n
-	cara pakai : python3 pukul.py [-s] [-p] [-t]
-	contoh : python3 pukul.py -s 192.168.0.1 -p 80 -t 135	
+	cara pakai : python3 lanjake.py [-s] [-p] [-t]
+	contoh : python3 lanjake.py -s 192.168.0.1 -p 80 -t 135	
 	-h : help
 	-s : alamat ip target
 	-p : port target, contoh 80
